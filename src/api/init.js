@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // Create an axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:3001'
+  baseURL: 'https://secure-chamber-81112.herokuapp.com/'
 })
 
 // Add the bearer token to the axios instance
